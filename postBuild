@@ -3,4 +3,4 @@ set -ex
 
 /srv/conda/envs/notebook/lib/dotnet/dotnet tool install -g Microsoft.dotnet-interactive
 export DOTNET_ROOT="/srv/conda/envs/notebook/lib/dotnet"
-~/.dotnet/tools dotnet-interactive jupyter install
+~/.dotnet/tools/dotnet-interactive jupyter install
