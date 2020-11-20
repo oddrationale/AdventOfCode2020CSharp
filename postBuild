@@ -1,5 +1,6 @@
 #!/bin/bash
 set -ex
 
+which jupyter
 dotnet tool install -g Microsoft.dotnet-interactive
 dotnet interactive jupyter install
