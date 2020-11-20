@@ -1,9 +1,8 @@
 #!/bin/bash
 set -ex
 
-su -c ln -s /srv/conda/envs/notebook/lib/dotnet/dotnet /usr/local/bin/dotnet
+export DOTNET_ROOT="/srv/conda/envs/notebook/lib/dotnet"
+export PATH=$PATH:$DOTNET_ROOT:~/.dotnet/tools
 dotnet tool install -g Microsoft.dotnet-interactive \
     --add-source "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-tools/nuget/v3/index.json"
-
-su -c ln -s ~/.dotnet/tools/dotnet-interactive /usr/local/bin/dotnet-interactive
 dotnet interactive jupyter install
