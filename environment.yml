@@ -1,4 +1,4 @@
-name: AoC2020
+name: dotnet3.1
 channels:
   - conda-forge
   - defaults
