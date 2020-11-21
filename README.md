@@ -19,7 +19,7 @@ I aim to implement at least one of the following design patterns in creating the
     </thead>
     <tbody>
         <tr>
-            <td>
+            <td valign="top">
                 <ul>
                     <li>Builder</li>
                     <li>Factory method</li>
@@ -28,7 +28,7 @@ I aim to implement at least one of the following design patterns in creating the
                     <li>Singleton</li>
                 </ul>
             </td>
-            <td>
+            <td valign="top">
                 <ul>
                     <li>Adapter</li>
                     <li>Bridge</li>
@@ -39,7 +39,7 @@ I aim to implement at least one of the following design patterns in creating the
                     <li>Proxy</li>
                 </ul>
             </td>
-            <td>
+            <td valign="top">
                 <ul>
                     <li>Chain of responsibility</li>
                     <li>Command</li>
