@@ -351,3 +351,15 @@ MigrationBackup/
 
 # Jupyter Notebook
 .ipynb_checkpoints/
+
+# Binder Environment is the $HOME dir
+.bash_logout
+.bashrc
+.conda/
+.config/
+.dotnet/
+.jupyter/
+.local/
+.npm/
+.nuget/
+.profile
