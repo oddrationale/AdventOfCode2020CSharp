@@ -1,7 +1,7 @@
-name: dotnet3.1
+name: dotnet5.0
 channels:
   - conda-forge
   - defaults
 dependencies:
-  - dotnet=3.1
+  - dotnet=5.0
   
