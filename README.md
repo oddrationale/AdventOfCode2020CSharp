@@ -5,4 +5,4 @@ Solutions for [Advent of Code (AoC) 2020](https://adventofcode.com/2020) in C# u
 
 ## Feedback
 
-I will happily accept any feedback regarding my solutions! As I am new to these design patterns, any suggestions in applying them would be much appreciated!
+I will happily accept any feedback regarding my solutions!
